@@ -47,6 +47,9 @@ pub type ConcreteProofPublicInputs = ProofPublicInputs<NUM_STATE_ELEMENTS>;
 #[cfg(test)]
 mod tests;
 
+#[cfg(test)]
+mod cve_2025_zk_002_poc;
+
 #[allow(invalid_value)]
 #[allow(unreachable_code)]
 #[inline(always)]
